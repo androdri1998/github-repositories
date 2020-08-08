@@ -2,6 +2,8 @@ import React, { useState, useEffect, FormEvent } from 'react';
 import { FiChevronRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
+import routesConfig from '../../routes/config';
+
 import logoImg from '../../assets/logo.svg';
 
 import api from '../../services/api';
@@ -79,7 +81,10 @@ const Dashboard: React.FC = () => {
       <Repositories>
         {repositories.map(repository => (
           <Link
-            to={`/repositories/${repository.full_name}`}
+            to={routesConfig.REPOSITORY_DETAILS.replace(
+              ':repository_name+',
+              repository.full_name,
+            )}
             key={repository.full_name}
           >
             <img
