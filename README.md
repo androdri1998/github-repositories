@@ -4,7 +4,7 @@ Application has the functionality to search GitHub's repositories and view some 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
   
-## github-repositories  
+## Layouts
   
 #### Home  
 <img src="/layouts/home.png">  
