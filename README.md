@@ -1,8 +1,14 @@
 # github-repositories
 Find your prefers repositories of the GitHub.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
+  
+## github-repositories  
+  
+<img src="/layouts/home.png">  
+  
+<img src="/layouts/details.png">  
+  
 ## Available Scripts
 
 In the project directory, you can run:
