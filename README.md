@@ -1,12 +1,15 @@
 # github-repositories
 Find your prefers repositories of the GitHub.
+Application has the functionality to search GitHub's repositories and view some details of a GitHub's repository.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
   
 ## github-repositories  
   
+#### Home  
 <img src="/layouts/home.png">  
   
+#### Details  
 <img src="/layouts/details.png">  
   
 ## Available Scripts
